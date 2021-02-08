@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Card__C",
+        "referenceId": "Card__cRef1"
+      },
+      "LeadId__c": "@LeadRef1",
+      "Name": "Todo 1",
+      "Description__c": "Creates an inspiring vision of the future"
+    },
+    {
+      "attributes": {
+        "type": "Card__C",
+        "referenceId": "Card__cRef2"
+      },
+      "LeadId__c": "@LeadRef1",
+      "Name": "Todo 2",
+      "Description__c": "Motivates and inspires people to engage with that vision."
+    },
+    {
+      "attributes": {
+        "type": "Card__C",
+        "referenceId": "Card__cRef3"
+      },
+      "Name": "Todo 2",
+      "Description__c": "Coaches and builds a team, so that it is more effective at achieving the vision."
+    }
+  ]
+}
