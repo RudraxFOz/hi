@@ -2,7 +2,7 @@
   "records": [
     {
       "attributes": {
-        "type": "Card__C",
+        "type": "Card__c",
         "referenceId": "Card__cRef1"
       },
       "LeadId__c": "@LeadRef1",
@@ -11,7 +11,7 @@
     },
     {
       "attributes": {
-        "type": "Card__C",
+        "type": "Card__c",
         "referenceId": "Card__cRef2"
       },
       "LeadId__c": "@LeadRef1",
@@ -20,7 +20,7 @@
     },
     {
       "attributes": {
-        "type": "Card__C",
+        "type": "Card__c",
         "referenceId": "Card__cRef3"
       },
       "Name": "Todo 2",

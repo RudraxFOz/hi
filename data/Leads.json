@@ -5,8 +5,9 @@
         "type": "Lead",
         "referenceId": "LeadRef1"
       },
-      "Name": "Alpha Dynamics",
-      "Title": "Technology Partner",
+      "FirstName": "Alpha",
+      "LastName": "Dynamics",
+      "Company": "Technology Partner GmbH",
       "Phone": "3362227000"
     },
     {
@@ -14,8 +15,9 @@
         "type": "Lead",
         "referenceId": "LeadRef2"
       },
-      "Name": "Madison Investments",
-      "Title": "Customer - Direct",
+      "FirstName": "Madison",
+      "LastName": "Investments",
+      "Company": "Customer - Direct AG",
       "Phone": "7227003362"
     }
   ]
