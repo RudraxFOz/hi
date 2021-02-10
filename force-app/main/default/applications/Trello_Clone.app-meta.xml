@@ -13,6 +13,10 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Trello_Clone</label>
     <navType>Standard</navType>
+    <tabs>Board</tabs>
+    <tabs>Result_Dashboard</tabs>
+    <tabs>Card__c</tabs>
+    <tabs>standard-Lead</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Trello_Clone_UtilityBar</utilityBar>
 </CustomApplication>
