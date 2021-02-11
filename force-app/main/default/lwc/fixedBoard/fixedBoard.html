@@ -2,15 +2,11 @@
   <div class="c-container">
     <lightning-layout multiple-rows="true">
       <div class="slds-grid slds-gutters">
-        <div class="slds-col">
-          <c-list></c-list>
-        </div>
-        <div class="slds-col">
-          <c-list></c-list>
-        </div>
-        <div class="slds-col">
-          <c-list></c-list>
-        </div>
+        <template if:true={types} for:each={types.data} for:item="typeItem">
+          <div class="slds-col" key={typeItem.Id}>
+            <c-list type={typeItem}></c-list>
+          </div>
+        </template>
       </div>
     </lightning-layout>
   </div>
