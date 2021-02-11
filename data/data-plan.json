@@ -6,6 +6,12 @@
     "files": ["Leads.json"]
   },
   {
+    "sobject": "Type__c",
+    "saveRefs": true,
+    "resolveRefs": true,
+    "files": ["Types.json"]
+  },
+  {
     "sobject": "Card__c",
     "saveRefs": true,
     "resolveRefs": true,

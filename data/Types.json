@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Type__c",
+        "referenceId": "Type__cRef1"
+      },
+      "Name": "Todo"
+    },
+    {
+      "attributes": {
+        "type": "Type__c",
+        "referenceId": "Type__cRef2"
+      },
+      "Name": "In Progress"
+    },
+    {
+      "attributes": {
+        "type": "Type__c",
+        "referenceId": "Type__cRef3"
+      },
+      "Name": "Done"
+    }
+  ]
+}

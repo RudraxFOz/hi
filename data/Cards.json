@@ -6,6 +6,7 @@
         "referenceId": "Card__cRef1"
       },
       "LeadId__c": "@LeadRef1",
+      "TypeId__c": "@Type__cRef1",
       "Name": "Todo 1",
       "Description__c": "Creates an inspiring vision of the future"
     },
@@ -15,7 +16,8 @@
         "referenceId": "Card__cRef2"
       },
       "LeadId__c": "@LeadRef1",
-      "Name": "Todo 2",
+      "TypeId__c": "@Type__cRef2",
+      "Name": "In progress 1",
       "Description__c": "Motivates and inspires people to engage with that vision."
     },
     {
@@ -24,6 +26,7 @@
         "referenceId": "Card__cRef3"
       },
       "Name": "Todo 2",
+      "TypeId__c": "@Type__cRef3",
       "Description__c": "Coaches and builds a team, so that it is more effective at achieving the vision."
     }
   ]
