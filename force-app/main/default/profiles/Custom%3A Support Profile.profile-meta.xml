@@ -31,8 +31,16 @@
         <field>Card__c.Start_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Card__c.TypeId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Card__c-Card Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Type__c-Type Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
         <tab>Board</tab>
@@ -44,6 +52,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Result_Dashboard</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Type__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
