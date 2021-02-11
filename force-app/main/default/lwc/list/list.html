@@ -68,7 +68,7 @@
     </div>
 
     <!--Cards-->
-    <template if:true={cards} for:each={cards.data} for:item="cardItem">
+    <template if:true={filteredCardsByType} for:each={filteredCardsByType} for:item="cardItem">
         <c-card key={cardItem.Id} card={cardItem}></c-card>
     </template>
 
