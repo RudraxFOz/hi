@@ -67,8 +67,10 @@
       </header>
     </div>
 
-    <c-card></c-card>
-    <c-card></c-card>
+    <!--Cards-->
+    <template if:true={cards} for:each={cards.data} for:item="cardItem">
+        <c-card key={cardItem.Id} card={cardItem}></c-card>
+    </template>
 
     <footer class="slds-card__footer">
       <a class="slds-card__footer-action" href="#"> Add new card </a>
